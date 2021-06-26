@@ -129,7 +129,7 @@ h1.dark {
   justify-content: center;
   align-items: center;
   font-size: 80px;
-  background-color: white;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -142,7 +142,7 @@ h1.dark {
 }
 
 .board-tile:hover {
-  background: #eee;
+  background: rgba(137, 137, 137, 0.285);
 }
 
 .tile-winner span{
