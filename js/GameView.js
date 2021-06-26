@@ -8,7 +8,7 @@ export default class GameView {
     overlay.classList.remove("open")
     body.style.overflow = "auto";
     this.updateTurn(game)
-    
+
     const winningCombination = game.findWinningCombinations()
       for(let i =0; i < game.board.length; i++){
         const tile = document.querySelector(`.board-tile[data-index='${i}']`);
@@ -17,16 +17,15 @@ export default class GameView {
         let tileType = game.board[i] == 'X' ? "tile-x" : "tile-o"
         tile.innerHTML = `<span class="${tileType}">${game.board[i] ? game.board[i] : ""}</span>`
         
+        //result box modal
+        let text = document.querySelector(".result-box .text")
+
         if (winningCombination && winningCombination.includes(i)) {
           tile.classList.add("tile-winner")
-          
-          //result box modal
-          let text = document.querySelector(".result-box .text")
           text.textContent = `Congratulation 🎉 Winner is Player ${game.board[i]}!`
           result.classList.add("open")
           overlay.classList.add("open")
           body.style.overflow = "hidden";
-
         }
       }
   }
