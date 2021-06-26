@@ -26,7 +26,7 @@ export default class GameView {
           result.classList.add("open")
           overlay.classList.add("open")
           body.style.overflow = "hidden";
-        }
+        } 
       }
   }
 

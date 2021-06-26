@@ -109,7 +109,7 @@ h1.dark {
 
 .game {
   max-width: 90vw;
-  max-height: 50vh;
+  max-height: 90vh;
   width: 500px;
   height: 500px;
   display: flex;
@@ -290,5 +290,9 @@ h1.dark {
 
   .board-tile {
     font-size: 50px;
+  }
+
+  .game {
+    max-height: 50vh;
   }
 }
