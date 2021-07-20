@@ -7,6 +7,6 @@
 - Players can toggle between a light and dark mode
 
 
-![screenshot](https://im2.ezgif.com/tmp/ezgif-2-d3b7477617bf.gif)
+![screenshot](https://i.ibb.co/Y2fZCV4/Screen-Shot-2021-07-20-at-12-18-44-PM.png)
 
 
